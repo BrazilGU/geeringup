@@ -74,8 +74,6 @@ class Snake {
     for (int i = 0; i < tail.size(); i++){
       Point body = this.tail.get(i);
       if (this.x == body.getX() && this.y == body.getY()){
-        this.total = 0;
-        this.tail.clear();
         stopgame = true;
       }
     }
