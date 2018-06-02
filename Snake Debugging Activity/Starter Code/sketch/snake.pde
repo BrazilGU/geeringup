@@ -74,7 +74,7 @@ class Snake {
     for (int i = 0; i < tail.size(); i++){
       Point body = this.tail.get(i); // represents each of the snake's body points 
       
-      // TODO(6): Finish the implementation of the death function (hint) use stopgame
+      // TODO(5): Finish the implementation of the death function (hint) use stopgame
       
     }
   }
